@@ -1,0 +1,133 @@
+@font-face {
+    font-family: WorkInProgress;
+    src: url(../fonts/work_in_progress.ttf);
+}
+@font-face {
+    font-family: Signatures;
+    src: url(../fonts/Signatures.otf);
+}
+@font-face {
+    font-family: Timeless;
+    src: url(../fonts/Timeless-Bold.ttf);
+}
+body {
+	width: 100%;
+    height: 100vh; /* value is equal to percentage. vh = viewport height */
+	background-image: url("../img/starsInForest.jpg");
+	background-color: rgba(0,0,0,0);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.quoteContents {
+	margin-top: 10%;
+	text-align: center;
+	color: rgb(230, 230, 230);
+}
+#quoteTitle {
+	font-family: WorkInProgress;
+	text-shadow: 0.1px 0.1px 1px black, 0 0 10px white;
+}
+#quoteMessage {
+	font-family: Timeless;
+	color: rgb(230, 230, 230);
+	margin-top: 5%;
+}
+#quoteAuthor {
+	font-family: Signatures;
+}
+.btn {
+	margin-top: 2%;
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Extra Small Mobile Devices */ 
+@media only screen and (min-width : 320px) {
+	#quoteTitle {
+		font-size: 3em;
+	}
+	#quoteMessage {
+		font-size: 1em;
+	}
+	#quoteAuthor {
+		font-size: 2em;
+	}
+}
+
+/* Large Mobile Devices */
+@media only screen and (min-width : 425px) {
+	#quoteTitle {
+		font-size: 6em;
+	}
+	#quoteMessage {
+		font-size: 2em;
+	}
+	#quoteAuthor {
+		font-size: 4em;
+	}
+}
+
+/* Extra-Large Mobile Devices */
+@media only screen and (min-width : 480px) {
+	#quoteTitle {
+		font-size: 6em;
+	}
+	#quoteMessage {
+		font-size: 2em;
+	}
+	#quoteAuthor {
+		font-size: 4em;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	#quoteTitle {
+		font-size: 6em;
+	}
+	#quoteMessage {
+		font-size: 2em;
+	}
+	#quoteAuthor {
+		font-size: 4em;
+	}
+}
+/* Medium Devices, Desktops - No minimum height */
+@media only screen and (min-width : 972px){
+	#quoteTitle {
+		font-size: 6em;
+	}
+	#quoteMessage {
+		font-size: 2em;
+	}
+	#quoteAuthor {
+		font-size: 4em;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	#quoteTitle {
+		font-size: 6em;
+	}
+	#quoteMessage {
+		font-size: 2em;
+	}
+	#quoteAuthor {
+		font-size: 4em;
+	}
+}
+
+/* Extra-Large Devices, Wide Screens */
+@media only screen and (min-width : 1300px) {
+	#quoteTitle {
+		font-size: 6em;
+	}
+	#quoteMessage {
+		font-size: 2em;
+	}
+	#quoteAuthor {
+		font-size: 4em;
+	}
+}
